@@ -27,7 +27,7 @@ public class Jogar {
 		jogo = new JogoVelha();
 
 		//TODO: Define a classe utilizado pelo Player 1:
-		player = new myFirstPlayer.Player(-1);
+		player = new humanPlayer.Player(-1);
 		player.setMinhaMarcaTabuleiro(X);
 		player.setJogo(jogo);
 		player.setMarcaTabuleiroOponente(O);
